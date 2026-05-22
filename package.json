@@ -1,0 +1,18 @@
+{
+  "name": "artes-buho-mapa-musical",
+  "version": "0.1.0",
+  "description": "Gestion del curso M.A.P.A. Musical - Ecosistema ARTES BUHO",
+  "main": "src/index.js",
+  "scripts": {
+    "test:connection": "node scripts/test-connection.js",
+    "sync:doc": "node scripts/sync-doc.js",
+    "sync:sheet": "node scripts/sync-sheet.js"
+  },
+  "dependencies": {
+    "artes-buho-api-google": "file:../ARTES-BUHO_API-GOOGLE"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "private": true
+}
